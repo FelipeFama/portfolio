@@ -4,7 +4,7 @@
   --white-detail: #fbfcfc;
   --pale-yellow: #ffffed;
   --body-color: #171717;
-  --other-black: #191919;
+  --other-black: #222222;
 }
 
 *, 
@@ -36,10 +36,6 @@ a {
 img {
   display: block;
   width: 100%;
-}
-
-main {
-  margin-top: 5rem;
 }
 
 section {
@@ -122,12 +118,13 @@ header nav {
 
 /*About*/
 .section-about {
+  background-color: var(--other-black);
   display: grid;
   grid-template-columns: 1fr 1fr;
   flex-direction: column;
   align-items: center;
   justify-items: center;
-  padding: 70px 25px 60px 0px;
+  padding: 5rem 6rem 4rem 4rem;
   width: 100%;
 }
 
@@ -183,29 +180,88 @@ header nav {
   background-color: #FF7F50;
   color: var(--white-detail);
 }
+
 /*Projects*/
-.project-grid {
+.section-projects {
+  padding: 55px 0 100px 0;
+}
+
+.title-projects {
+  text-align: center;
+  padding-bottom: 24px;
+  font-size: 4rem;
+  color: var(--pale-yellow);
+}
+
+.container-projects {
+  display: grid;
+  grid-template-columns: 24rem 1fr 2fr;
+  flex-direction: column;
+  align-items: center;
+  gap: 70px;
+  margin-top: 50px;
+  padding: 0 5rem;
+}
+
+.card-project {
   display: flex;
-  margin: 1.25rem auto 0;
-  max-width: 65rem;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px 15px;
+  width: 343px;
+  height: 425px;
+  border-radius: 8px;
+  border: 1px solid var(--other-black);
+  box-shadow: 0 4px 4px rgba(0 , 0, 0, 0.25);
+  background-color: var(--other-black);
+  color: var(--white-detail);
 }
 
-.project-tile {
-  margin: 0.6rem;
-  transition: transform 0.3s ease;
-}
-
-.project-tile:hover {
-  transform: scale(1.05);
-}
-
-.project-tile img {
+.card-project img {
+  background-size: cover;
+  background-repeat: no-repeat;
   max-width: 100%;
+  min-height: 50%;
+  object-fit: cover;
+  border-radius: 6px;
+  box-shadow: 0px 4px 4px rgba(0 , 0, 0, 0.25);
 }
 
-.project-tile p {
-  color: #000;
-  margin-top: 2rem;
+.card-project h4 {
+  color: var(--tomato);
+  font-size: 1.5rem;
+  padding-top: 2rem;
+}
+
+.project-links {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  margin: 20px 0;
+}
+
+.project-links a {
+  padding: 10px 20px;
+  margin-top: 10px;
+  outline: none;
+  font-size: 1.2rem;
+  border-radius: 8px;
+}
+
+.project-links a:hover {
+  opacity: 0.8;
+}
+
+.view-live {
+  background-color: var(--tomato);
+  border: 1px solid #FF7F50;
+  color: var(--other-black);
+}
+
+.github-repo {
+  background-color: var(--body-color);
+  border: 1px solid #FF7F50;
+  color: var(--pale-yellow);
 }
 
 .profile-link {
