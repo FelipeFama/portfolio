@@ -1,72 +1,77 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Portfolio</title>
+  <title>Portfólio | FelipeFama</title>
+  <link rel="stylesheet" href="/style.css">
 </head>
 <body>
-  <header class="navbar">
-    <div class="logo">
-      <h3><span>&lt;</span>Felipehfama<span>&#47;&gt;</span></h3>
-    </div>
-    <nav id="navbar">
-      <ul class="nav-list">
-        <li>
-          <a href="#welcome-section">About</a>
+   <header>
+     <h2><a class="logo" href="#">&ltFelipehfama/&gt</a></h2>
+     <nav>
+      <ul id="nav-list" class="nav-list">
+        <li class="item-list">
+          <a class="nav-link" href="#about">Sobre mim</a>
         </li>
-        <li>
-          <a href="#projects">Work</a>
+        <li class="item-list">
+          <a class="nav-link" href="#projects">Projetos</a>
         </li>
-        <li>
-          <a href="#contact">Contact</a>
+        <li class="item-list">
+          <a class="nav-link" href="#skills">Conhecimentos</a>
+        </li>
+        <li class="item-list">
+          <a class="nav-link" href="#contact">Contato</a>
         </li>
       </ul>
-    </nav>
-  </header>
-  
-  <section id="welcome-section">
-    <h1>Hello! 👋</h1>
-    <p>My name is Felipe Fama</p>
-    <p>And I am a web developer.</p>
-  </section>
-  
-  <section id="#projects">
-    <h2>My Projects</h2>
-    <div class="project-grid">
-      <a href="https://codepen.io/felipefama/pen/ZEvRwPy" target="_blank" class="project-tile">
+      <div class="menu-icon">
+        <i class="fas fa-bars"></i>
+      </div>
+     </nav>
+   </header>
+   <main>
+    <section id="about" class="section-about">
+     <h1>Hello! 👋</h1>
+     <p>My name is Felipe Fama</p>
+     <p>And I am a web developer.</p>
+    </section>
+    
+    <section id="projects" class="section-projects">
+     <h2>Meus Projetos</h2>
+     <div class="project-grid">
+       <a href="https://codepen.io/felipefama/pen/ZEvRwPy" target="_blank" class="project-tile">
         <img class="project-image" src="https://shots.codepen.io/felipefama/pen/ZEvRwPy-1280.jpg?version=1649657531" alt="project-tribute-page" />
         <p class="project-title">Tribute Page</p>
-      </a>
+       </a>
   
-      <a href="https://codepen.io/felipefama/pen/jOYKRYX" target="_blank" class="project-tile">
+       <a href="https://codepen.io/felipefama/pen/jOYKRYX" target="_blank" class="project-tile">
         <img class="project-image" src="https://shots.codepen.io/felipefama/pen/jOYKRYX-1280.jpg?version=1650453465" alt="project-survey-form" />
         <p class="project-title">Survey Form</p>
-      </a>
+       </a>
   
-      <a href="https://codepen.io/felipefama/pen/XWVOOwG" target="_blank" class="project-tile">
+       <a href="https://codepen.io/felipefama/pen/XWVOOwG" target="_blank" class="project-tile">
         <img src="https://shots.codepen.io/felipefama/pen/XWVOOwG-1280.jpg?version=1650770884" alt="project-product-landing-page" />
         <p class="project-title">Product Landing Page</p>
-      </a>
+       </a>
   
-      <a href="https://codepen.io/felipefama/pen/rNpXeJL" target="_blank" class="project-tile">
+       <a href="https://codepen.io/felipefama/pen/rNpXeJL" target="_blank" class="project-tile">
         <img src="https://shots.codepen.io/felipefama/pen/rNpXeJL-1280.jpg?version=1651420158" alt="project-technical-documentation" />
         <p class="project-title">Technical Documentation</p>
-      </a>
-    </div>
-  </section>
-  
-  <section id="#profile-link" class="profile-link">
-    <h2>Social Media</h2>
-    <p>you can find me on.</p>
-    <ul>
-      <li>
-        <a href="https://github.com/FelipeFama" target="_blank">
-          <i class="fab fa-github"></i>
-        </a>
-      </li>
-      <li>
+       </a>
+     </div>
+   </section>
+
+   <section id="#profile-link" class="profile-link">
+     <h2>Social Media</h2>
+     <p>you can find me on.</p>
+     <ul>
+       <li>
+         <a href="https://github.com/FelipeFama" target="_blank">
+           <i class="fab fa-github"></i>
+         </a>
+       </li>
+       <li>
         <a href="https://www.linkedin.com/in/felipe-fama/" target="_blank">
           <i class="fab fa-linkedin"></i>
         </a>
@@ -82,8 +87,9 @@
         </a>
       </li>
     </ul>
-  </section>
-  
-  <footer>Made with <i class="fas fa-heart"></i> Felipe Fama</footer>
-</body>
+   </section>
+   </main>
+   <footer>Made with <i class="fas fa-heart"></i> Felipe Fama</footer>
+ </body>
+ <script src="https://kit.fontawesome.com/d18ce1bc58.js" crossorigin="anonymous"></script>
 </html>
