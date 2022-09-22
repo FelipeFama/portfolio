@@ -194,11 +194,10 @@ header nav {
 }
 
 .container-projects {
-  display: grid;
-  grid-template-columns: 24rem 1fr 2fr;
-  flex-direction: column;
-  align-items: center;
-  gap: 70px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 60px;
   margin-top: 50px;
   padding: 0 5rem;
 }
@@ -208,8 +207,8 @@ header nav {
   flex-direction: column;
   align-items: center;
   padding: 20px 15px;
-  width: 343px;
-  height: 425px;
+  width: 340px;
+  height: 415px;
   border-radius: 8px;
   border: 1px solid var(--other-black);
   box-shadow: 0 4px 4px rgba(0 , 0, 0, 0.25);
@@ -221,7 +220,7 @@ header nav {
   background-size: cover;
   background-repeat: no-repeat;
   max-width: 100%;
-  min-height: 50%;
+  min-height: 38%;
   object-fit: cover;
   border-radius: 6px;
   box-shadow: 0px 4px 4px rgba(0 , 0, 0, 0.25);
@@ -263,6 +262,8 @@ header nav {
   border: 1px solid #FF7F50;
   color: var(--pale-yellow);
 }
+
+/*Skills*/
 
 .profile-link {
   background-color: var(--ash-grey);
