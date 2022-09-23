@@ -158,11 +158,11 @@ header nav {
   padding: 15px;
   border-radius: 6px;
   border: 1px solid #FAFAFA;
-  transition: 0.3s;
+  transition: 0.7s ease-in-out;
 }
 
 .contact-click:hover {
-  background-color: var(--pale-yellow);
+  box-shadow: 300px 0 0 0 var(--pale-yellow) inset;
   color: var(--other-black);
 }
 
@@ -173,11 +173,11 @@ header nav {
   border: 1px solid #FF7F50;
   border-radius: 6px;
   color: var(--tomato);
-  transition: 0.3s;
+  transition: 0.7s ease-in-out;
 }
 
 .cv-download:hover {
-  background-color: #FF7F50;
+  box-shadow: 300px 0 0 0 #FF7F50 inset;
   color: var(--white-detail);
 }
 
@@ -323,10 +323,19 @@ header nav {
 .social-contacts {
   display: flex;
   gap: 1rem;
-  font-size: 1.5rem;
+  font-size: 1.7rem;
 }
 
-.social-contacts a:hover {
+.social-contacts-list a {
+  background-color: var(--other-black);
+  border-radius: 0.5rem;
+  padding: 0.2rem 0.4rem;
+  color: var(--ash-grey);
+  transition: 0.7s ease-in-out;
+}
+
+.social-contacts-list a:hover {
+  background-color: var(--white-detail);
   color: var(--tomato);
 }
 
@@ -387,16 +396,15 @@ header nav {
   color: var(--pale-yellow);
 }
 
+/*Footer*/
 footer {
-  background-color: var(--green-screen);
+  background-color: var(--other-black);
+  border-top: 1px solid rgba(114, 114, 126, 0.2);
   color: var(--pale-yellow);
   text-align: center;
   padding: 1rem;
 }
 
-footer .fa-heart {
-  color: red;
-}
 
 @media (max-width: 49rem) {
   .navbar {
