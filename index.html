@@ -49,7 +49,7 @@
             quisquam mollitia commodi!
           </p>
           <div class="buttons-home">
-            <a class="contact" href="#contacts">Entrar em contato</a>
+            <a class="contact-click" href="#contacts">Entrar em contato</a>
             <a
               href="./assets/Desenvolvedor Front End.pdf"
               class="cv-download"
@@ -149,44 +149,36 @@
           <div class="card-skill">
             <img src="./assets/icons8-html-5.svg" alt="html5">
           </div>
-
           <div class="card-skill">
             <img src="./assets/icons8-css3.svg" alt="css3">
           </div>
-
           <div class="card-skill">
             <img src="./assets/icons8-javascript.svg" alt="javascript">
           </div>
-
           <div class="card-skill">
             <img src="./assets/icons8-typescript.svg" alt="typescript">
           </div>
-
           <div class="card-skill">
             <img src="./assets/icons8-sass.svg" alt="sass">
           </div>
-
           <div class="card-skill">
             <img src="./assets/icons8-bootstrap.svg" alt="bootstrap">
           </div>
-
           <div class="card-skill">
             <img src="./assets/icons8-tailwind-css.svg" alt="tailwind-css">
           </div>
-
           <div class="card-skill">
             <img src="./assets/icons8-reactjs.svg" alt="react">
           </div>
-
           <div class="card-skill">
             <img src="./assets/icons8-git.svg" alt="git">
           </div>
        </div>
       </section>
-      <section id="#contact" class="contact">
-        <h2>Social Media</h2>
-        <p>you can find me on.</p>
-        <ul>
+
+      <section id="contacts" class="section-contacts">
+       <h2 class="title-contacts">Contato</h2>
+        <ul class="social-contacts">
           <li>
             <a href="https://github.com/FelipeFama" target="_blank">
               <i class="fab fa-github"></i>
@@ -203,11 +195,29 @@
             </a>
           </li>
           <li>
-            <a href="lipehfama@gmail.com" target="_blank">
-              <i class="fas fa-at"></i>
+            <a href="https://www.instagram.com/lipeh.fama.dev/" target="_blank">
+              <i class="fab fa-instagram"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://wa.me/5585992838795" target="_blank">
+              <i class="fab fa-whatsapp"></i>
             </a>
           </li>
         </ul>
+        <form action="https://formsubmit.co/lipehfama@gmail.com" method="POST" class="form">
+          <label>
+            <input type="text" name="Nome" placeholder="Seu nome" required autocomplete />
+          </label>
+          <label>
+            <input type="email" name="Email" placeholder="seuemail@gmail.com" required autocomplete="" />
+          </label>
+          <label>
+           <textarea name="mensagem" placeholder="Deixe sua mensagem"></textarea>
+          </label>
+          <input type="hidden" name="_captcha" value="false"/>
+          <button type="submit">Enviar</button>
+        </form>
       </section>
     </main>
     <footer>Made with <i class="fas fa-heart"></i> Felipe Fama</footer>
