@@ -71,7 +71,7 @@ header nav {
 @media screen and (max-width:950px) {
   .nav-list {
     position: absolute;
-    top: 11vh;
+    top: 9vh;
     right: 0;
     width: 100%;
     height: 100vh;
