@@ -4,6 +4,7 @@ header {
   background-color: #171717;
   color: var(--pale-yellow);
   display: flex;
+  align-items: center;
   justify-content: space-between;
   padding: 15px 80px;
   position: fixed;
@@ -68,7 +69,7 @@ header nav {
 }
 
 /*Responsive*/
-@media screen and (max-width:950px) {
+@media screen and (max-width:920px) {
   .nav-list {
     position: absolute;
     top: 9vh;

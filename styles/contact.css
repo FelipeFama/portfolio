@@ -6,11 +6,6 @@
   gap: 1rem;
 }
 
-.title-contacts {
-  color: var(--pale-yellow);
-  font-size: 3rem;
-}
-
 .social-contacts {
   display: flex;
   gap: 1rem;

@@ -3,13 +3,6 @@
   padding: 70px 0 100px 0;
 }
 
-.title-projects {
-  text-align: center;
-  padding-bottom: 24px;
-  font-size: 4rem;
-  color: var(--pale-yellow);
-}
-
 .container-projects {
   display: flex;
   flex-wrap: wrap;

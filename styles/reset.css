@@ -41,7 +41,7 @@ img {
 
 section {
   text-align: center;
-  padding: 3rem;
+  padding: 4rem 0;
 }
 
 ::-webkit-scrollbar {
@@ -55,6 +55,17 @@ section {
 ::-webkit-scrollbar-thumb {
   background-color: var(--tomato);
   border-radius: 10px;
+}
+
+.article-about, .title-projects, .title-skills,.title-contacts {
+  margin-top: 2.5rem;
+}
+
+.title-about, .title-projects, .title-skills, .title-contacts {
+  text-align: center;
+  padding-bottom: 24px;
+  font-size: 2.5rem;
+  color: var(--pale-yellow);
 }
 
 /*Footer*/

@@ -16,9 +16,8 @@
   border: 0.3rem solid var(--tomato);
 }
 
-.article-about h1 {
-  color: var(--pale-yellow);
-  font-size: 2.5rem;
+.article-about {
+  margin-block: 2rem;
 }
 
 .article-about p {
