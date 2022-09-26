@@ -56,10 +56,6 @@ section {
   border-radius: 10px;
 }
 
-
-
-
-
 /*Footer*/
 footer {
   background-color: var(--other-black);
@@ -67,16 +63,4 @@ footer {
   color: var(--pale-yellow);
   text-align: center;
   padding: 1rem;
-}
-
-
-@media (max-width: 49rem) {
-  .navbar {
-    display: flex;
-    flex-direction: column;
-  }
-  .project-grid {
-    display: flex;
-    flex-direction: column;
-  }
 }
