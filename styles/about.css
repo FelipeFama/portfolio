@@ -12,6 +12,7 @@
 
 .profile-about {
   max-width: 300px;
+  margin-top: auto;
   border-radius: 50%;
   border: 0.3rem solid var(--tomato);
 }
