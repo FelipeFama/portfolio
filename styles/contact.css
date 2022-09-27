@@ -4,6 +4,7 @@
   flex-direction: column;
   align-items: center;
   gap: 1rem;
+  max-width: 100%;
 }
 
 .social-contacts {
@@ -26,8 +27,8 @@
 }
 
 .form {
-  width: 35%;
-  padding: 0.5rem;
+  width: 42%;
+  padding: 0 2.5rem;
   border-radius: 1rem;
 }
 
@@ -35,6 +36,7 @@
   display: block;
   font-size: 1.8rem;
   margin-bottom: 1rem;
+  width: unset;
 }
 
 .form input {
@@ -74,10 +76,23 @@
   outline: none;
   padding: 1rem 3rem;
   transition: 0.7s ease-in-out;
-  width: 60%;
 }
 
 .form button:hover {
   box-shadow: 300px 0 0 0 #FF7F50 inset;
   color: var(--pale-yellow);
+}
+
+/*Responsive*/
+@media screen and (max-width:790px) {
+  .form {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .form input, .form textarea {
+    width: 12rem;
+  }
 }

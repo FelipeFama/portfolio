@@ -68,3 +68,19 @@
   border: 1px solid #FF7F50;
   color: var(--pale-yellow);
 }
+
+/*Responsive*/
+@media screen and (max-width: 490px) {
+  .card-project {
+    height: 390px;
+  }
+  .card-project h4 {
+    font-size: 1.2rem;
+  }
+  .project-links {
+    flex-direction: column;
+  }
+  .project-links a {
+    font-size: 1rem;
+  }
+}
