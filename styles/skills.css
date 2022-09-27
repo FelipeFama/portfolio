@@ -41,3 +41,10 @@
 .card-skill img {
   min-width: 80px;
 }
+
+/*Responsive*/
+@media screen and (max-width:510px){
+  .container-skills {
+    grid-template-columns: repeat(2, 1fr); 
+  }
+}
